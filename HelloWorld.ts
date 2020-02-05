@@ -1,5 +1,11 @@
 class HelloWorld {
 
 
-constructor(params)    
+constructor(params)  
+
+
+
+greet() {console.log('Cesar Leon');
+
+}
 }
