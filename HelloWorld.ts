@@ -1,15 +1,18 @@
 class HelloWorld {
 
 
-constructor(params)  
+    constructor(params) { }
 
 
 
-greet() {console.log('Cesar Leon');
+    greet() {
+        console.log('Cesar Leon');
 
-}
+    }
 
-showGreet() {
-    {console.log('Hello'); 
-}
+    showGreet() {
+        {
+            console.log('Hello');
+        }
+    } 
 }
