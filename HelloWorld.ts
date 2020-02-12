@@ -1,7 +1,12 @@
 class HelloWorld {
 
+    firstName = '';
+    lastName: string;
 
-    constructor(params) { }
+    constructor(firstName: string, lastName: string) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
 
 
@@ -14,5 +19,12 @@ class HelloWorld {
         {
             console.log('Hello');
         }
-    } 
+    }
+
+    sayHello() {
+        console.log('Hello World!' + ' My name is ' + this.firstName + ' ' + this.lastName);
+    }
 }
+
+const myHelloClassInstance = new HelloWorld('Cesar', 'Leon');
+myHelloClassInstance.sayHello(); 
